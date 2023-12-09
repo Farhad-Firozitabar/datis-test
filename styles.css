@@ -1,0 +1,33 @@
+/* Custom CSS for specific colors */
+.custom-bg-color {
+    background-color: #0D0870;
+}
+
+.custom-text-color {
+    color: #FFE6B4;
+}
+
+/* Custom logo size and positioning */
+.custom-logo {
+    height: 180px; /* Adjust the height as needed */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1; /* Ensure the logo appears above the content */
+}
+body {
+    background-color: #0D0870;
+}
+
+#hero-text {
+    margin-top: 12px;
+}
+#header-image {
+    margin-top: -180px; /* Adjust this value to move the image higher */
+    margin-left: 190px;
+    max-width: 75%; /* Set maximum width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    
+    /* You can also specify a specific width or height if needed */
+  }
+
